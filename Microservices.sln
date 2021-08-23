@@ -9,6 +9,25 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Servicios.api.Seguridad", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Servicios.api.Gateway", "Servicios.api.Gateway\Servicios.api.Gateway.csproj", "{0414778E-A839-49A4-A79C-E31E23575019}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "kubernetes", "kubernetes", "{44927CAE-AFFF-4C92-BA6F-6FCAEE774255}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\Users\chris\Downloads\Microservices\Microservices\gateway-deploy.yml = ..\..\Users\chris\Downloads\Microservices\Microservices\gateway-deploy.yml
+		..\..\Users\chris\Downloads\Microservices\Microservices\gateway-pod.yml = ..\..\Users\chris\Downloads\Microservices\Microservices\gateway-pod.yml
+		..\..\Users\chris\Downloads\Microservices\Microservices\gateway-service.yml = ..\..\Users\chris\Downloads\Microservices\Microservices\gateway-service.yml
+		..\..\Users\chris\Downloads\Microservices\Microservices\microservice-libreria-deploy.yml = ..\..\Users\chris\Downloads\Microservices\Microservices\microservice-libreria-deploy.yml
+		microservice-libreria-pod.yml = microservice-libreria-pod.yml
+		..\..\Users\chris\Downloads\Microservices\Microservices\microservice-libreria-service.yml = ..\..\Users\chris\Downloads\Microservices\Microservices\microservice-libreria-service.yml
+		..\..\Users\chris\Downloads\Microservices\Microservices\microservice-seguridad-deploy.yml = ..\..\Users\chris\Downloads\Microservices\Microservices\microservice-seguridad-deploy.yml
+		..\..\Users\chris\Downloads\Microservices\Microservices\microservice-seguridad-pod.yml = ..\..\Users\chris\Downloads\Microservices\Microservices\microservice-seguridad-pod.yml
+		..\..\Users\chris\Downloads\Microservices\Microservices\microservice-seguridad-service.yml = ..\..\Users\chris\Downloads\Microservices\Microservices\microservice-seguridad-service.yml
+		..\..\Users\chris\Downloads\Microservices\Microservices\mongo-deploy.yml = ..\..\Users\chris\Downloads\Microservices\Microservices\mongo-deploy.yml
+		mongo-pod.yml = mongo-pod.yml
+		..\..\Users\chris\Downloads\Microservices\Microservices\mongo-service.yml = ..\..\Users\chris\Downloads\Microservices\Microservices\mongo-service.yml
+		..\..\Users\chris\Downloads\Microservices\Microservices\sqlserver-deploy.yml = ..\..\Users\chris\Downloads\Microservices\Microservices\sqlserver-deploy.yml
+		..\..\Users\chris\Downloads\Microservices\Microservices\sqlserver-pod.yml = ..\..\Users\chris\Downloads\Microservices\Microservices\sqlserver-pod.yml
+		..\..\Users\chris\Downloads\Microservices\Microservices\sqlserver-service.yml = ..\..\Users\chris\Downloads\Microservices\Microservices\sqlserver-service.yml
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
