@@ -8,7 +8,7 @@ metadata:
 spec:
   containers:
     - name: mongo-pod
-      image: mongo:4.2.12
+      image: mongo:5.0.2
       command:
       - /bin/bash
       - -c
