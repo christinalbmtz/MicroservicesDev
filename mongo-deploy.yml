@@ -24,7 +24,6 @@ spec:
               image: mongo:5.0.2
               command:
               - /bin/bash
-              - -c
               env:
               - name: MONGO_INITDB_ROOT_USERNAME
                 value: "vaxidrez"
