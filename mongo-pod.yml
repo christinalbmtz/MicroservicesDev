@@ -5,13 +5,10 @@ metadata:
   labels:
     app: microservice-libreria
     name: mongo-pod
-    type: database
 spec:
   containers:
     - name: mongo-pod
       image: mongo:5.0.2
-      command:
-      - /bin/bash
       env:
       - name: MONGO_INITDB_ROOT_USERNAME
         value: "vaxidrez"
