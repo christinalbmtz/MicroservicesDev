@@ -5,6 +5,7 @@ metadata:
   labels:
     app: microservice-libreria
     name: mongo-pod
+    type: database
 spec:
   containers:
     - name: mongo-pod
