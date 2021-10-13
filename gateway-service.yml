@@ -12,6 +12,10 @@ spec:
       targetPort: 80
       name: tcp-80
       nodePort: 30010
+    - port: 443
+      targetPort: 443
+      name: tcp-443
+      nodePort: 30011
   selector:
      app: gateway
      type: microservice
